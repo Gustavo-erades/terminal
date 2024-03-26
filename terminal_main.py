@@ -17,4 +17,7 @@ label = Label (janela, text= ">> Hello user! Welcome to your new python terminal
 label.grid (column = 0, row = 0)
 label = Label (janela, text= texto, font = ("verdana", 10),fg='#04BF55', bg='#0D0D0D')
 label.grid (column = 0, row = 1)
+codigo = Entry(janela, width=100, bg="#0D0D0D", fg="#fff", borderwidth=0, insertbackground="#fff")
+codigo.grid(column=0, row=2)
+'''codigo.configure(bg="#1C6C0B", insertbackground='white')'''
 tk.mainloop()
